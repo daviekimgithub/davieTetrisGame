@@ -1,0 +1,32 @@
+$box: 30px;
+$field: ($box + 4) * 16;
+
+
+*{
+    background-color: antiquewhite;
+
+
+    .main-bricks-shadow{
+        margin: auto;
+        display: flex;
+        background-color: brown;
+        height: $field;
+        width: $field;
+        flex-wrap: wrap;
+
+        div{
+            background-color: bisque;
+            display: block;
+            height: $box;
+            margin: 2px;
+            position: relative;
+            width: $box;
+            box-shadow: 0 1.5px 1px 1px rgb(63, 62, 62);
+
+        }
+    
+        
+    }
+}
+
+
